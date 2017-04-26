@@ -1,0 +1,122 @@
+/*==========  Non-Mobile First Method  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .my-caption {
+    left: 60%;
+  }
+  .slide-text-container-1 h3 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .slide-text-container-2 {
+    display: none;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .panel-group-container {
+    display: block;
+  }
+  .top-header {
+    padding: 20px 10px 0px 10px;
+  }
+  .panel-group-container {
+    padding: 30px 10px 0px 10px;
+  }
+  .logo {
+    margin-left: 10px;
+  }
+  .basket-button {
+    margin-right: 10px;
+  }
+  .feature-section {
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+  .feature-description {
+    margin-bottom: 40px;
+    margin-left: 25px;
+  }
+  .feature-symbol {
+    margin-left: -20px;
+  }
+  .feature-text {
+    padding-right: 15px;
+  }
+  .feature-text p {
+    margin-top: 10px;
+  }
+  .footer-container {
+    margin-left: -10px;
+  }
+  .footer-container h2 {
+    margin-left: -5px;
+  }
+  .footer-container .basket-button {
+    margin-right: -20px;
+  }
+  .footer-container .footer-text {
+    margin-left: -5px;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .slide-text-container-1 h3 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .top-header {
+    padding: 20px 0px 0px 0px;
+  }
+  .panel-group-container {
+    padding: 30px 10px 0px 10px;
+  }
+  .logo {
+    margin-left: 10px;
+  }
+  .basket-button {
+    margin-right: 10px;
+  }
+  .feature-section {
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+  .feature-description {
+    margin-left: 22px;
+  }
+  .feature-symbol {
+    margin-left: -26px;
+  }
+  .feature-text {
+    padding-right: 5px;
+  }
+  .feature-text p {
+    margin-top: 10px;
+  }
+  .footer-container {
+    margin-left: -15px;
+  }
+  .footer-container h2 {
+    margin-left: -5px;
+  }
+  .footer-container .basket-button {
+    margin-right: -35px;
+  }
+  .footer-container .footer-text {
+    margin-left: -5px;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .feature-text {
+    padding-right: 0px;
+  }
+}
+/* Custom, iPhone Retina */
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
