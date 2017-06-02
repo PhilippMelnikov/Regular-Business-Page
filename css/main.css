@@ -6,17 +6,18 @@ body {
 .wrapper {
   background-color: #fff;
   min-height: 100vh;
-  padding: 0;
 }
-.top-header {
-  padding: 20px 20px;
+.header-container {
+  background-color: #fff;
+}
+.head-container {
+  padding: 20px 25px;
 }
 .logo {
   float: left;
   display: block;
   font-size: 20px;
   font-weight: 600;
-  margin-left: 20px;
   line-height: 47px;
   height: 47px;
 }
@@ -129,12 +130,12 @@ button:hover {
   -webkit-transition: all 0.1s;
   transition: all 0.1s;
 }
-.basket-button {
-  margin-right: 30px;
-}
 .basket-button i {
   font-size: 14px;
   margin-right: 5px;
+}
+.carousel-container {
+  background-color: #fff;
 }
 .carousel-control-prev {
   content: "";
@@ -219,16 +220,18 @@ button:hover {
             transform: translateY(0px);
   }
 }
+.feature-container {
+  background-color: #fff;
+  padding: 50px 25px;
+}
 .feature-section {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  padding: 0px 0px;
 }
 .feature-description {
-  margin-left: 25px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 .feature-symbol {
   color: #3074c7;
@@ -236,7 +239,7 @@ button:hover {
 }
 .feature-text {
   padding-top: 3px;
-  padding-left: 10px;
+  margin-left: 10px;
   padding-right: 30px;
 }
 .feature-text h2 {
@@ -249,18 +252,15 @@ button:hover {
 }
 .footer-section {
   display: block;
-  padding-top: 50px;
-  padding-bottom: 50px;
+}
+.foot-container {
+  padding: 50px 25px;
   background-color: #f3f7fe;
 }
 .footer-container {
   position: relative;
   display: block;
   width: 100%;
-  padding-left: 5px;
-}
-.footer-container .basket-button {
-  margin-right: 20px;
 }
 .footer-container h2 {
   font-size: 18px;
@@ -278,11 +278,62 @@ button:hover {
   line-height: 20px;
   max-width: 100%;
 }
+.second-footer-container {
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.second-footer h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.second-footer p {
+  line-height: 1.6;
+  font-size: 13px;
+}
+.second-footer .social-media {
+  margin-top: 30px;
+  float: left;
+}
+.second-footer .social-media .social-media-icon {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  margin-right: 10px;
+}
+.footer-column {
+  padding-right: 50px;
+}
+.tweets li {
+  margin-bottom: 10px;
+}
+.tweets li a {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-content: baseline;
+      -ms-flex-line-pack: baseline;
+          align-content: baseline;
+  text-decoration: none;
+}
+.tweets li a:hover {
+  text-decoration: none;
+}
+.tweets li a .social-media-icon {
+  padding-top: 4px;
+  margin-right: 15px;
+}
+.tweets li a .tweet-message {
+  line-height: 1.6;
+  font-size: 13px;
+}
 .panel-group-container {
   float: left;
   display: none;
   width: 100%;
-  padding: 30px 30px 0px 20px;
+  padding: 30px 0px 0px 0px;
 }
 .panel-group-container .panel-heading {
   background-color: #3074c7;
